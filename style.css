@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+}
+
+.one{
+    display: inline-flex;
+}
+
+.one-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.headerlinks{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+#astro{
+    height: 100px;
+    width: 200px;
+    align-self: center;
+}
+
+.one-b{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.two{
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+div{
+    margin: 10px;
+    border: 1px solid red;
+}
