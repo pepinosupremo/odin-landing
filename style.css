@@ -1,9 +1,11 @@
-body{
-    background-color: aqua;
+.one{
+    background-color: #1f2937;
+    display: inline-flex;
+    
 }
 
-.one{
-    display: inline-flex;
+.one h2{
+    color: #f9faf8;
 }
 
 .one-a{
@@ -13,12 +15,22 @@ body{
     padding: 5px;
 }
 
+.one h1{
+    color: #f9faf8;
+}
+
+.one-b p{
+    display: block;
+}
 
 .headerlinks{
     display: inline-flex;
     list-style-type: none;
     justify-content: space-between;
     margin: 10px;
+    padding-left:10px;
+    color: #e5e7eb;
+    
 }
 
 
@@ -36,11 +48,30 @@ body{
 
 .two{
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
+
+}
+
+.two-a{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 5px solid blue;
+    padding: 10px;
+}
+
+.three{
+    background-color: #e5e7eb;
+}
+
+.four{
+    background-color: #3882f6;
+}
+
+.footer{
+    background-color: #1f2937;
 }
 
 div{
     margin: 10px;
-    border: 1px solid red;
 }
